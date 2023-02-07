@@ -1,0 +1,50 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Open Sans", serif;
+  font-size: 2rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #333;
+  margin: 0;
+}
+
+h1 {
+  fontsize: 4rem;
+  margin-bottom: 0
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+
+a {
+  color: #F90412;
+}
+
+a:hover {
+    color: #477ca7;
+}
+
+img {
+  display: block;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+}
+
+#img-caption {
+  margin: 15px;
+}
+
+#headline {
+  margin: 50px 0;
+  text-align: center;
+}
